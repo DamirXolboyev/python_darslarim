@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Apr 21 03:24:06 2022
-
+Matnlar bilan ishlash
 @author: Shaxriyor
 """
 
