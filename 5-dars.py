@@ -42,8 +42,49 @@ sonlar[1] = 43
 sonlar.remove(-12.8)
 
 sonlar.insert(3,-65)
-
+sonlar[2] = 13
 print(sonlar)
+
+t_shaxslar = ["Imom Al-Buxoriy", "Alisher Navoiy", "at-Termiziy", "Amir Temur"]
+
+z_shaxslar = ["Elon Mask", "Mark Sukerberg", "Robert Kiosaki"]
+
+b_matn = t_shaxslar.pop(1)
+print(f"{b_matn}ning Xamza asari eng mashxur asarlaridan biri hisoblanadi")
+i_matn = z_shaxslar.pop(1)
+print(f"{i_matn} Facebookni talabalar turar joyida yaratgan hozirda unga tegishli bo\'lgan ijtimoiy tarmoqlar hammasi Metaga qarashli bo\'ldi")
+
+friends = []
+
+friends.append("Zafar")
+friends.append("Sardor")
+friends.append("Javohir")
+friends.append("Jahongir")
+
+print(friends)
+
+friends.remove("Javohir")
+
+print(friends)
+
+friends.insert(0, "Doston")
+friends.insert(3, "Xayrulla")
+friends.insert(5, "Humoyun")
+
+print(friends)
+y_mehmonlar = []
+yangi = friends.pop(0)
+new = friends.pop(3)
+news = friends.pop(2)
+newss = friends.pop(1)
+
+
+y_mehmonlar.append(yangi)
+y_mehmonlar.append(news)
+y_mehmonlar.append(new)
+y_mehmonlar.append(newss)
+
+print(y_mehmonlar)
 
 #moshinlar = []
 #print(moshinlar)
