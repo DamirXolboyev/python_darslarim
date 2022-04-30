@@ -1,31 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 21 03:24:06 2022
-Matnlar bilan ishlash
+Created on Wed Apr 13 03:31:35 2022
+
 @author: Shaxriyor
 """
 
-#kocha = "Bog\'bon"
-#mahalla = "Sag\'bon"
-#tuman = "Bodomzor"
-#viloyat = "Samarqand"
-
-
-#print(f"{kocha} ko\'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati")
-
-kocha=str(input("Ko\'chani kiriting:"))
-mahalla=str(input("Mahallani kiriting:"))
-tuman=str(input("Tumanni kiriting:"))
-viloyat=str(input("Viloyatni kiriting:"))
-
-#print(kocha.title() + " ko'chasi,\n" + mahalla.title() + " mahallasi,\n" + tuman.title() + " tumani,\n" + viloyat.title() + " viloyati")
-
-
-manzil = f"{kocha} ko'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati"
-print(manzil)
-
-
-print(manzil.upper())
-print(manzil.lower())
-print(manzil.title())
-print(manzil.capitalize())
+print(2+4*2)
+print("\"Nexsia\", \"Tico\", 'Damas' ko'rgan havas qilar")
+#5 ning 44-darajasini toping
+print(5**44)
+#22 ni 4 ga bo'lganda qancha qoldiq qoladi?
+print(22%4)
+#Tomonlari 125 ga teng kvadratning yuzi va perimetrini toping
+print(125**2,4*125)
+#diametri 12 ga teng bo'lgan doiraning yuzini toping (PI=3.14) 
+print(3.14*(12**2))
+#Katetlari 6 va 7 bo'lgan to'g'ri to'rtburchakli uchburchakning gipotenuzasini toping (Pifagor teoremasidan foydalaning)
+print((6**2)+(7**2))
