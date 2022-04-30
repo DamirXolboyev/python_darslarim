@@ -61,29 +61,96 @@ Ro'yhatlarni tartiblash
 # toq_sonlar = list(range(1,20,2))
 
 # print("toq sonlar",toq_sonlar)
+#sonli ro'yhat ustida sodda amal bajarish
+# narxlar = [12000, 21000, 32000, 45000, 10000, 4920, 54300]
 
-narxlar = [12000, 21000, 32000, 45000, 10000, 4920, 54300]
+# arzon = min(narxlar)
 
-arzon = min(narxlar)
+# qimmat = max(narxlar)
 
-qimmat = max(narxlar)
+# jami = sum(narxlar)
 
-jami = sum(narxlar)
+# print(narxlar)
 
-print(narxlar)
+# print("Eng arzon narx: ", arzon,\
+#       "\n Eng qimmat narx: ", qimmat,\
+#           "\n Jami: ", jami)
+# # nusxa olish
+# sonlar1 = [1, 2, 3, 4, 5]
 
-print("Eng arzon narx: ", arzon,\
-      "\n Eng qimmat narx: ", qimmat,\
-          "\n Jami: ", jami)
+# sonlar2 = sonlar1[:]
 
-sonlar1 = [1, 2, 3, 4, 5]
+# sonlar2.append(6)
 
-sonlar2 = sonlar1[:]
+# sonlar2.append(7)
 
-sonlar2.append(6)
+# print("Bu sonlar1 ro\'yhati: ",sonlar1)
 
-sonlar2.append(7)
+# print("Bu sonlar2 ro\'yhati: ", sonlar2)
 
-print("Bu sonlar1 ro\'yhati: ",sonlar1)
+#tuple - o'zgarmas ro'yhatlar
 
-print("Bu sonlar2 ro\'yhati: ", sonlar2)
+# tomonlar = (1, 2, 21.2)
+# print(tomonlar)
+
+# toys = ('bus', 'car', 'bear', 'dino', 'snake', 'lizard')
+
+# toys = list(toys)
+
+# toys.append("dragon")
+# toys.remove("bus")
+
+# toys[1] = "mcqueen" 
+# toys = tuple(toys)
+
+# print(toys[1])
+# print(toys[-3])
+# print(toys[2:6])
+# print(toys)
+
+""" Amaliy misol ishlash """
+# davlatlar = ['Canada', 'UK', 'Germany', 'Russia', 'Italy', 'Uzbekistan', 'Greece']
+
+# print(davlatlar)
+# davlatlar.reverse()
+# davlatlar.sort(reverse=True)
+# print(davlatlar)
+# print(sorted(davlatlar, reverse=True))
+
+# sonlar = list(range(120,1200,2))
+
+# yigindi = sum(sonlar)
+
+# katta = max(sonlar)
+# kichik = min(sonlar)
+# soni = len(sonlar)
+# ortasi = sonlar[714:734]
+# oxiri = sonlar[1180:]
+# print("Yig\'indi: ", yigindi,\
+#       "\nEng katta son: ", katta,\
+#           "\nEng kichik son: ", kichik,\
+#               "\nElementlar soni: ", soni,\
+#                   "\nboshidan 20 ta sonlar: ", ortasi,\
+#                       "\n oxiridan 20 ta sonlar", oxiri)
+# print(sonlar)
+
+taomlar = []
+
+taomlar.append('pelmin')
+taomlar.append('jiz')
+taomlar.append('tabaka')
+taomlar.append('manti')
+taomlar.append('osh')
+print(taomlar)
+
+nonushta = taomlar[:]
+
+nonushta.append('yog\'')
+nonushta.append('tuxum')
+
+nonushta= tuple(nonushta)
+nonushta[0] = "qaymoq va non"
+print(nonushta)
+
+
+
