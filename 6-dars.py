@@ -22,7 +22,7 @@ print(my_cars, new_cars, old_cars)
 cars.sort(reverse = True)
 
 print(cars)
-
+ 
 
 mehmonlar = ["Odil", "Hamid", "Temur", "Avazbek", "Farrux"]
 
@@ -149,6 +149,7 @@ nonushta.append('yog\'')
 nonushta.append('tuxum')
 
 nonushta= tuple(nonushta)
+nonushta = list(nonushta)
 nonushta[0] = "qaymoq va non"
 print(nonushta)
 
