@@ -62,13 +62,36 @@ ism = 'damir'
 # else:
 #     print(f"Xush kelibsiz: {login}!")
 """vazifa №3"""
-a = float(input('a sonni kiriting: '))
-b = float(input('b sonni kiriting: '))
+# a = float(input('a sonni kiriting: '))
+# b = float(input('b sonni kiriting: '))
 
-if(a==b):
-    print('sonlar teng')
+# if(a==b):
+#     print('sonlar teng')
     
-else:
-    print('sonlar teng emas')
+# else:
+#     print('sonlar teng emas')
+"""vazifa №4"""
+# a = float(input("Istalgan son kiriting: "))
 
+# if(a>=0):
+#     print("Musbat son")
+# else:
+#     print("Manfiy son")
+
+"""vazifa №5"""
+# a = float(input("son kiriting: "))
+
+# if(a>0):
+#     print("kiritilgan sonning ildizi: ", a**(1/2))
+    
+# else:
+#     print("Musbat son kiriting ")
+    
+# a = int(input("Son kiriting: "))
+
+# if(a%2==1):
+#     print("toq son")
+    
+# else:
+#     print("juft son")
 
