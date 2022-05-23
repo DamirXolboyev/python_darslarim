@@ -70,3 +70,5 @@ if(a==b):
     
 else:
     print('sonlar teng emas')
+
+
