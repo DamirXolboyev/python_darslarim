@@ -7,9 +7,14 @@ Created on Mon May 23 05:17:59 2022
 """
 son = int(input("son kiriting: "))
 
-if(son>0):
-    print("musbat son")
-elif(son<0):
-    print("manfiy son")
-else:
-    print("son 0 ga teng")
+# if(son>0):
+#     print("musbat son")
+# elif(son<0):
+#     print("manfiy son")
+# else:
+#     print("son 0 ga teng")
+
+if (son%2==0):
+    print("Juft son")
+elif (son%2==1):
+    print("Toq son")
